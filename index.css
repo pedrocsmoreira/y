@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';font-size: 22px;
+}
+
+div {
+    position: absolute;
+}
+
+#main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#title {
+    
+}
+
+#logo {
+    width: 40vh;
+    height: auto;
+}
+
+#footer{
+    width: 100vw;
+    height: 8vh;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
